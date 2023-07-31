@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+}
+#root {
+  width: 100%;
+  height:100%;
+  background: #ff1100;
+  background-image: url("https://www.transparenttextures.com/patterns/dust.png");}
+.container {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+header {
+  width: 100%;
+  background: rgb(255, 208, 0);
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  text-decoration-line: underline;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.687);
+  /* background-image: url(../src/components/Logo/5.jpg); */
+}
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+nav img{
+    width: 50px;
+    height: auto;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  /* top:15%; */
+  background:#080808;
+  color: #fff;
+  text-transform: capitalize;
+  background-image: url("https://www.transparenttextures.com/patterns/green-cup.png");
+  background-color:#000000;
+  background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+  background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+
+}
+.form-cotainer {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 1.5em;
+    position: relative; 
+    
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.265);
+    border-radius: 5%;
+    padding: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.49);
+    background:#fff;
+    
+}
+form input {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    font-size: 1em;
+    outline: none;
+   
+}
+.colored-placeholder::placeholder {
+    color: red; /* Change the color to your desired value */
+  }
+form input:focus{
+    border-bottom: 1px solid black;
+}
+form textarea {
+    padding: 1em;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-size: 1em; */
+
+}
+form button {
+    position: absolute;
+    right: 2%;
+    bottom: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none; 
+    background: rgb(255, 208, 0);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.665);
+cursor: pointer;
+font-weight: 600;
+
+}
+form button:hover{
+    background: rgb(255, 183, 0);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.928);
+}
+.allNotes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
+    gap: 20px;
+    padding: 1em;
+    position: relative;
+    /* border-top: 1px solid #0000003e; */
+    /* box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.288); */
+    background: #e7e7e7;
+    background: #ff1100;
+    background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+}
+.note-contaier{
+    background:#fff;
+ /* border: 1px solid red; */
+ width: 25%;
+ position: relative;
+ padding: 1em;
+ height: auto;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+ border-radius: 25px;
+}
+.note-contaier h1{
+ width: 100%;
+ text-transform: capitalize;
+ text-decoration-line: underline;
+}
+.note-contaier p{
+    width: 100%;
+    height: auto;
+    padding: .5em;
+}
+.note-contaier button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 10%;
+  border: none;
+  background: rgb(255, 208, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.665);
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  text-transform: capitalize;
+  position: absolute;
+  right: 0%;
+  bottom: 0.5%;
+  cursor: pointer;
+
+}
+.note-contaier button:hover{
+    background:#ff3829;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.928);
+}
